@@ -1,0 +1,153 @@
+*{
+	padding:0;
+	margin:0;
+}
+.wrapper{
+    width: 100%;
+    height: 800px;
+}
+.sidebar{
+	float: left;
+	width: 14%;
+	height: 100%;
+	background-color: rgb(47, 47, 30);
+}
+.sidebar ul a{
+	display: block;
+	width: 100%;
+	line-height: 50px;
+	padding-left: 10px;
+	text-decoration: none;
+	box-sizing: border-box;
+	color: white;
+	font-size: 20px;
+	border-bottom: 1px solid rgb(204, 204, 179);
+}
+.sidebar ul a:hover{
+	background-color: yellow;
+	color:black;
+}
+.container{
+    width: 86%;
+    height: 100%;
+    float: left;
+}
+.Search-box{
+    width: 100%;
+    height: 6%;
+    box-sizing: border-box;
+	border-bottom: 1px solid rgb(204, 204, 179);
+}
+.Search-box input[type=text]
+{
+	margin-left: 25px;
+	margin-top: 15px;
+	font-size: 20px;
+    border: none;
+    font-family: Roboto;
+}
+.button-div{
+    position: relative;
+    top: 1%;
+    width:50% ;
+    height: 10%;
+    }
+    .button{
+        background-color: yellow;
+        width: 50%;
+        position: relative;
+        top: 5%;
+        height: 80%;
+        left: 46px;
+        font-size: 20px;
+        border-radius: 5%;
+        border: 1px solid yellow;
+    }
+table{
+    width: 94%;
+    height: 700px;
+     margin-left: 46px;
+}
+thead tr{
+    height: 60px;
+}
+thead th{
+    width: 30px;
+    font-size: 18px;
+}
+.rows{
+    height: 60px;
+	border:1px solid rgb(204, 204, 179);
+	border-radius: 10px;
+}
+
+tbody td{
+    width: 30px;
+    padding: 5px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    text-align: center;
+    font-size: 18px;
+    opacity: .8;
+}
+
+tbody td img{
+    width: 30px;
+    height: 35px;
+    position: relative;
+    top: 0px;
+}
+
+tbody td span{
+    position: relative;
+    top: -12px;
+}
+.first{
+    border-left:1px solid;
+    border-radius: 10px 0px 0px 10px;
+}
+.last{
+    border-right:1px solid ;
+    border-radius: 0px 10px 10px 0px;
+}
+.geeks{
+    border-right: hidden;
+}
+.gfg { 
+    border-collapse:separate; 
+    border-spacing:0 15px; 
+} 
+
+.sub{
+	display: none;
+	border: 1px solid;
+	width: 80px;
+    font-size: 20px;
+    background-color: black;
+    margin-left: 50px;
+}
+
+ul li:hover .sub{
+	display: block;
+	position: absolute;
+
+}
+
+.sub button{
+
+	display: block;
+	line-height: 30px;
+    width: 100%;
+    background-color: black;
+	color: white;
+	box-sizing: border-box;
+	font-size: 15px;
+    border-bottom: 1px solid rgb(204, 204, 179);
+    border:none;
+
+}
+.sub button:hover{
+
+    background-color: pink;
+    color: white;
+}
